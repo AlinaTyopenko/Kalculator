@@ -23,5 +23,26 @@ namespace Calc
             double second = Convert.ToDouble(textBox2.Text);
             label1.Text = Convert.ToString(first + second);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox1.Text);
+            double second = Convert.ToDouble(textBox2.Text);
+            label1.Text = Convert.ToString(first - second);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox1.Text);
+            double second = Convert.ToDouble(textBox2.Text);
+            label1.Text = Convert.ToString(first * second);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox1.Text);
+            double second = Convert.ToDouble(textBox2.Text);
+            label1.Text = Convert.ToString(first / second);
+        }
     }
 }
