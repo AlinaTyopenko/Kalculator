@@ -17,32 +17,29 @@ namespace Calc
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Click(object sender, EventArgs e)
         {
             double first = Convert.ToDouble(textBox1.Text);
             double second = Convert.ToDouble(textBox2.Text);
-            label1.Text = Convert.ToString(first + second);
+            switch(((Button)sender).Name)
+{
+           case "button1":
+		      label1.Text = Convert.ToString(first + second);
+		   break;
+	       case "button2":
+              label1.Text = Convert.ToString(first - second);
+		   break;
+           case "button3":
+              label1.Text = Convert.ToString(first * second);
+           break;
+           case "button4":
+              label1.Text = Convert.ToString(first / second);
+           break;
+	       default:
+		   throw new Exception("Неизвестная операция");
+}
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            double second = Convert.ToDouble(textBox2.Text);
-            label1.Text = Convert.ToString(first - second);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            double second = Convert.ToDouble(textBox2.Text);
-            label1.Text = Convert.ToString(first * second);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            double second = Convert.ToDouble(textBox2.Text);
-            label1.Text = Convert.ToString(first / second);
-        }
     }
 }
