@@ -22,22 +22,23 @@ namespace Calc
             double first = Convert.ToDouble(textBox1.Text);
             double second = Convert.ToDouble(textBox2.Text);
             switch(((Button)sender).Name)
-{
+          {
            case "button1":
+              
 		      label1.Text = Convert.ToString(first + second);
-		   break;
+		      break;
 	       case "button2":
               label1.Text = Convert.ToString(first - second);
-		   break;
+		      break;
            case "button3":
               label1.Text = Convert.ToString(first * second);
-           break;
+              break;
            case "button4":
               label1.Text = Convert.ToString(first / second);
-           break;
+              break;
 	       default:
 		   throw new Exception("Неизвестная операция");
-}
+          }
 
         }
 
