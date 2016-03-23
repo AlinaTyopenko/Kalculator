@@ -8,7 +8,7 @@ namespace Calc
 {
     public class Division
     {
-        double Calculate(double first, double second)
+        public double Calculate(double first, double second)
         {
             return first / second;
         }

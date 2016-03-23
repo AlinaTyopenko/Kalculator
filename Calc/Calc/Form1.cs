@@ -24,7 +24,6 @@ namespace Calc
             switch(((Button)sender).Name)
           {
            case "button1":
-              
 		      label1.Text = Convert.ToString(first + second);
 		      break;
 	       case "button2":
