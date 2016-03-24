@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    public class CalcSub
+    public class Substraction: ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {
-            return first - second;
+            return first / second;
         }
+
     }
 }

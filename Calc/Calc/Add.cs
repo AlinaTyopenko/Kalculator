@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-   public class CalcPlus
+    public class Add:ITwoArgumentsCalculator
     {
-        public double Calculate(double first, double second){
-        return first + second; 
+        public double Calculate(double first, double second)
+        {
+            return first + second;
         }
-        
+
     }
 }
+

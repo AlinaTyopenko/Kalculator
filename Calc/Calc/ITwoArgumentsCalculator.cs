@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    class Umnojenie
+    interface ITwoArgumentsCalculator
     {
-        public double Calculate(double first, double second)
-        {
-            return first * second;
-        }
+        double Calculate(double first, double second);
     }
 }
+

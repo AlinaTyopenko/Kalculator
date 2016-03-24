@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    public class Multiply
+    public class ClassMultiply: ITwoArgumentsCalculator
     {
-        public double Calculate(double first, double second)
+        public  double Calculate(double first, double second)
         {
             return first * second;
         }

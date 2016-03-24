@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    public class Division
+    public class ClassDivision:ITwoArgumentsCalculator
     {
-        public double Calculate(double first, double second)
+        public  double Calculate(double first, double second)
         {
             return first / second;
         }
