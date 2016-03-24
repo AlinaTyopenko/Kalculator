@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Add.cs" />
+    <Compile Include="IOneCalculation.cs" />
+    <Compile Include="OneCalculation.cs" />
+    <Compile Include="Sin.cs" />
     <Compile Include="Substraction.cs" />
     <Compile Include="Division.cs" />
     <Compile Include="Form1.cs">
