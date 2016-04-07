@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Calc
+namespace Calc.OneArguments
 {
-    class OneCalculation
+    public static class OneCalculation
     {
         public static IOneCalculation CreateCalculator(string calculationName)
         {

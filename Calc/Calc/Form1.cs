@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using Calc.OneArguments;
+using Calc.TwoArguments;
 
 namespace Calc
 {
@@ -10,7 +12,7 @@ namespace Calc
             InitializeComponent();
         }
 
-        private void Click(object sender, EventArgs e)
+        private void ClickTwo(object sender, EventArgs e)
         {
             double first = Convert.ToDouble(textBox1.Text);
             double second = Convert.ToDouble(textBox2.Text);

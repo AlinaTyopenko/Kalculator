@@ -1,11 +1,14 @@
-﻿namespace Calc
+﻿using System.ComponentModel;
+using System.Windows.Forms;
+
+namespace Calc
 {
     partial class Form1
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -75,7 +78,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Click);
+            this.button2.Click += new System.EventHandler(this.ClickTwo);
             // 
             // button3
             // 
@@ -85,7 +88,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "*";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Click);
+            this.button3.Click += new System.EventHandler(this.ClickTwo);
             // 
             // button4
             // 
@@ -95,7 +98,7 @@
             this.button4.TabIndex = 6;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.Click);
+            this.button4.Click += new System.EventHandler(this.ClickTwo);
             // 
             // button1
             // 
@@ -105,7 +108,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Click);
+            this.button1.Click += new System.EventHandler(this.ClickTwo);
             // 
             // button5
             // 
@@ -216,21 +219,21 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Label label1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button1;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
+        private Button button10;
+        private Button button11;
+        private Button button12;
     }
 }
 
