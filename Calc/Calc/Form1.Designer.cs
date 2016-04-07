@@ -42,6 +42,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -124,7 +125,7 @@
             this.button6.TabIndex = 8;
             this.button6.Text = "Cos";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.ClickTwo);
+            this.button6.Click += new System.EventHandler(this.ClickOne);
             // 
             // button7
             // 
@@ -134,7 +135,7 @@
             this.button7.TabIndex = 9;
             this.button7.Text = "√";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.ClickThree);
+            this.button7.Click += new System.EventHandler(this.ClickOne);
             // 
             // button8
             // 
@@ -142,9 +143,9 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(55, 36);
             this.button8.TabIndex = 10;
-            this.button8.Text = "^";
+            this.button8.Text = "e";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.ClickFour);
+            this.button8.Click += new System.EventHandler(this.ClickOne);
             // 
             // button9
             // 
@@ -176,11 +177,22 @@
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.ClickOne);
             // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(246, 7);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(54, 35);
+            this.button12.TabIndex = 14;
+            this.button12.Text = "log";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.ClickOne);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(368, 231);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -218,6 +230,7 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
     }
 }
 

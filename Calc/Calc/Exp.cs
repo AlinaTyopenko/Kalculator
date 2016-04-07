@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-   public class Exp:IFourCalculation
+   public class Exp:IOneCalculation
    {
        public double Calculate(double first)
         {

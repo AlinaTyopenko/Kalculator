@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    public class Sqrt : IThreeCalculation
+    public class Sqrt : IOneCalculation
     {
         public double Calculate(double first)
         {

@@ -49,12 +49,9 @@
     <Compile Include="Cos.cs" />
     <Compile Include="Cube.cs" />
     <Compile Include="Exp.cs" />
-    <Compile Include="FourCalculation.cs" />
-    <Compile Include="IFourCalculation.cs" />
     <Compile Include="IOneCalculation.cs" />
-    <Compile Include="IThreeCalculation.cs" />
-    <Compile Include="ITwoCalculation.cs" />
     <Compile Include="OneCalculation.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="Sin.cs" />
     <Compile Include="Sqrt.cs" />
     <Compile Include="Substraction.cs" />
@@ -70,9 +67,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tan.cs" />
-    <Compile Include="ThreeCalculation.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
-    <Compile Include="TwoCalculation.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

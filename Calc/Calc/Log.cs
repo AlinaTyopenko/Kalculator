@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calc
 {
-    public class Cos: IOneCalculation
+    public class Log:IOneCalculation
     {
         public double Calculate(double first)
         {
-            return Math.Cos(first);
+            return Math.Log(first);
         }
     }
 }

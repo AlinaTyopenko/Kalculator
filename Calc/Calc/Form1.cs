@@ -27,31 +27,6 @@ namespace Calc
             double result = calculator.Calculate(first);
             label1.Text = Convert.ToString(result);
         }
-        private void ClickTwo(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            string calculationName = ((Button)sender).Name;
-            ITwoCalculation calculator = TwoCalculation.CreateCalculator(calculationName);
-            double result = calculator.Calculate(first);
-            label1.Text = Convert.ToString(result);
-        }
-        private void ClickThree(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            string calculationName = ((Button)sender).Name;
-            IThreeCalculation calculator = ThreeCalculation.CreateCalculator(calculationName);
-            double result = calculator.Calculate(first);
-            label1.Text = Convert.ToString(result);
-        }
-        private void ClickFour(object sender, EventArgs e)
-        {
-            double first = Convert.ToDouble(textBox1.Text);
-            string calculationName = ((Button)sender).Name;
-            IFourCalculation calculator = FourCalculation.CreateCalculator(calculationName);
-            double result = calculator.Calculate(first);
-            label1.Text = Convert.ToString(result);
-        }
-
 
     }
 }
