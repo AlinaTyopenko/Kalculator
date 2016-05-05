@@ -46,8 +46,11 @@
     <Compile Include="AddTests.cs" />
     <Compile Include="ClassSub.cs" />
     <Compile Include="DivisionClass.cs" />
+    <Compile Include="DivTestD.cs" />
     <Compile Include="MultTest.cs" />
+    <Compile Include="MultTestD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubTestD.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

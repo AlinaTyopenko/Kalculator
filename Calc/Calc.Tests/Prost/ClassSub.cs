@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace Calc.Tests
 {
     [TestFixture]
-    public class DivTest
+    public class SubTest
     {
         [Test]
-        public void SimpleTest3()
+        public void SubTest4()
         {
-            ITwoArgumentsCalculator calculator = new ClassDivision();
+            ITwoArgumentsCalculator calculator = new Substraction();
             double result = calculator.Calculate(16, 8);
-            Assert.AreEqual(2, result);
+            Assert.AreEqual(8, result);
         }
     }
 }

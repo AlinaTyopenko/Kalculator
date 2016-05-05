@@ -7,7 +7,7 @@ namespace Calc.Tests
     public class MultTest
     {
         [Test]
-        public void SimpleTest2()
+        public void MultTest2()
         {
             ITwoArgumentsCalculator calculator = new ClassMultiply();
             double result = calculator.Calculate(7, 8);
