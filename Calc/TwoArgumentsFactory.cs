@@ -1,29 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Calc.TwoArguments
+namespace Calc
 {
-    public static class TwoArgumentsFactory
+    static class TwoArgumentsFactory
     {
         public static ITwoArgumentsCalculator CreateCalculator(string calculationName)
         {
            switch(calculationName){
            case "button1":
               return new Add();
-		      break;
 	       case "button2":
               return new Substraction();
-		      break;
            case "button3":
               return new ClassMultiply();
-              break;
            case "button4":
               return new ClassDivision();
            case "button13":
               return new Atan();
-           case "button16":
-              return new Ostatokotdelenia();
-           case "button15":
+           case "button14":
               return new Vozvedenievdannuyustepen_();
+           case "button15":
+              return new Ostatokotdelenia();
               break;
 	       default:
 		   throw new Exception("Неизвестная операция");

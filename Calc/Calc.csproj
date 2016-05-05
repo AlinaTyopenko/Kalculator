@@ -44,34 +44,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArguments\Ugoldannogocos.cs" />
-    <Compile Include="TwoArguments\Add.cs" />
-    <Compile Include="OneArguments\Binary.cs" />
-    <Compile Include="OneArguments\Cos.cs" />
-    <Compile Include="OneArguments\Cube.cs" />
-    <Compile Include="OneArguments\Exp.cs" />
-    <Compile Include="OneArguments\IOneCalculation.cs" />
-    <Compile Include="OneArguments\OneCalculation.cs" />
-    <Compile Include="OneArguments\Log.cs" />
-    <Compile Include="OneArguments\Sin.cs" />
-    <Compile Include="OneArguments\Sqrt.cs" />
-    <Compile Include="TwoArguments\Atan.cs" />
-    <Compile Include="TwoArguments\Ostatokotdelenia.cs" />
-    <Compile Include="TwoArguments\Substraction.cs" />
-    <Compile Include="TwoArguments\Division.cs" />
+    <Compile Include="Add.cs" />
+    <Compile Include="Atan.cs" />
+    <Compile Include="Binary.cs" />
+    <Compile Include="Cos.cs" />
+    <Compile Include="Cube.cs" />
+    <Compile Include="Exp.cs" />
+    <Compile Include="IOneCalculation.cs" />
+    <Compile Include="OneCalculation.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Ostatokotdelenia.cs" />
+    <Compile Include="Pow.cs" />
+    <Compile Include="Sin.cs" />
+    <Compile Include="Sqrt.cs" />
+    <Compile Include="Substraction.cs" />
+    <Compile Include="Division.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="TwoArguments\ITwoArgumentsCalculator.cs" />
-    <Compile Include="TwoArguments\Multiply.cs" />
+    <Compile Include="ITwoArgumentsCalculator.cs" />
+    <Compile Include="Multiply.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OneArguments\Tan.cs" />
-    <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
-    <Compile Include="TwoArguments\Vozvedenievdannuyustepen%27.cs" />
+    <Compile Include="Tan.cs" />
+    <Compile Include="TwoArgumentsFactory.cs" />
+    <Compile Include="Ugoldannogocos.cs" />
+    <Compile Include="Vozvedenievdannuyustepen%27.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

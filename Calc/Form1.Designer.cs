@@ -1,14 +1,11 @@
-﻿using System.ComponentModel;
-using System.Windows.Forms;
-
-namespace Calc
+﻿namespace Calc
 {
     partial class Form1
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private IContainer components = null;
+        private System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -82,7 +79,7 @@ namespace Calc
             this.button2.TabIndex = 4;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.ClickTwo);
+            this.button2.Click += new System.EventHandler(this.Click);
             // 
             // button3
             // 
@@ -92,7 +89,7 @@ namespace Calc
             this.button3.TabIndex = 5;
             this.button3.Text = "*";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.ClickTwo);
+            this.button3.Click += new System.EventHandler(this.Click);
             // 
             // button4
             // 
@@ -102,7 +99,7 @@ namespace Calc
             this.button4.TabIndex = 6;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.ClickTwo);
+            this.button4.Click += new System.EventHandler(this.Click);
             // 
             // button1
             // 
@@ -112,7 +109,7 @@ namespace Calc
             this.button1.TabIndex = 3;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.ClickTwo);
+            this.button1.Click += new System.EventHandler(this.Click);
             // 
             // button5
             // 
@@ -200,9 +197,9 @@ namespace Calc
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(54, 35);
             this.button13.TabIndex = 15;
-            this.button13.Text = "atan";
+            this.button13.Text = "Atan2";
             this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.ClickTwo);
+            this.button13.Click += new System.EventHandler(this.ClickOne);
             // 
             // button14
             // 
@@ -210,29 +207,28 @@ namespace Calc
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(54, 35);
             this.button14.TabIndex = 16;
-            this.button14.Text = "UgolCos";
+            this.button14.Text = "^n";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.ClickOne);
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(306, 91);
+            this.button15.Location = new System.Drawing.Point(306, 90);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(54, 35);
             this.button15.TabIndex = 17;
-            this.button15.Text = "x^";
+            this.button15.Text = "Ost";
             this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.ClickTwo);
+            this.button15.Click += new System.EventHandler(this.ClickOne);
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(306, 133);
+            this.button16.Location = new System.Drawing.Point(306, 131);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(54, 35);
             this.button16.TabIndex = 18;
-            this.button16.Text = "%x";
+            this.button16.Text = "Угол cos";
             this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.ClickTwo);
             // 
             // Form1
             // 
@@ -267,25 +263,25 @@ namespace Calc
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button1;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
     }
 }
 

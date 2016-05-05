@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Calc.OneArguments
+namespace Calc
 {
-    public static class OneCalculation
+    class OneCalculation
     {
         public static IOneCalculation CreateCalculator(string calculationName)
         {
@@ -24,7 +28,7 @@ namespace Calc.OneArguments
                     return new Exp();
                 case "button12":
                     return new Log();
-                case "button14":
+                case "button16":
                     return new Ugoldannogocos();
                     break;
                 default:
