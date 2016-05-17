@@ -8,6 +8,8 @@ namespace Calc.Tests
     {
         [TestCase(2,3,5)]
         [TestCase(100, 500, 600)]
+        [TestCase(100000000, 300000000, 400000000)]
+        [TestCase(-200, 300, 100)]
         public void AddTest(double first, double second, double expected)
         {
             ITwoArgumentsCalculator calculator = new Add();
