@@ -1,7 +1,7 @@
 ﻿using Calc.TwoArguments;
 using NUnit.Framework;
 
-namespace Calc.Tests
+namespace Calc.Tests.TwoArguments
 {
     [TestFixture]
     public class AddTests

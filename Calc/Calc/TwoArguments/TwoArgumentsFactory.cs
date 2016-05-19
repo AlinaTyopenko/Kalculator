@@ -22,11 +22,9 @@ namespace Calc.TwoArguments
               return new Atan();
            case "button16":
               return new Ostatokotdelenia();
-           case "button15":
-              return new Vozvedenievdannuyustepen_();
               break;
 	       default:
-		   throw new Exception("Неизвестная операция");
+		  throw new Exception("Неизвестная операция");
           }
         }
     }

@@ -43,14 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NoProst\AddTests.cs" />
-    <Compile Include="Prost\ClassSub.cs" />
-    <Compile Include="Prost\DivisionClass.cs" />
-    <Compile Include="NoProst\DivTestD.cs" />
-    <Compile Include="Prost\MultTest.cs" />
-    <Compile Include="NoProst\MultTestD.cs" />
+    <Compile Include="OneArguments\BinaryTest.cs" />
+    <Compile Include="OneArguments\CosTest.cs" />
+    <Compile Include="OneArguments\CubeTest.cs" />
+    <Compile Include="OneArguments\ExpTest.cs" />
+    <Compile Include="OneArguments\LogTest.cs" />
+    <Compile Include="OneArguments\SinTest.cs" />
+    <Compile Include="OneArguments\SqrtTest.cs" />
+    <Compile Include="OneArguments\TanTest.cs" />
+    <Compile Include="OneArguments\UgoldannogocosTest.cs" />
+    <Compile Include="TwoArguments\AddTests.cs" />
+    <Compile Include="TwoArguments\AtanTest.cs" />
+    <Compile Include="TwoArguments\DivisionTest.cs" />
+    <Compile Include="TwoArguments\MultiplyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="NoProst\SubTestD.cs" />
+    <Compile Include="TwoArguments\OstatokotdeleniaTest.cs" />
+    <Compile Include="TwoArguments\SubTestD.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -64,6 +72,7 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

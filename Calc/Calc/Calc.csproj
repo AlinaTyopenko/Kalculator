@@ -71,7 +71,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArguments\Tan.cs" />
     <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
-    <Compile Include="TwoArguments\Vozvedenievdannuyustepen%27.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
