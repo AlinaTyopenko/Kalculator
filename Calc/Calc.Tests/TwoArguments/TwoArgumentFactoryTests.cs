@@ -5,20 +5,19 @@ using NUnit.Framework;
 
 namespace Calc.Tests.TwoArguments
 {
+
     public class TwoArgumentFactoryTests
     {
-        [TestCase("button5", typeof(Sin))]
-        [TestCase("button9", typeof(Tan))]
-        [TestCase("button10", typeof(Binary))]
-        [TestCase("button11", typeof(Cube))]
-        [TestCase("button6", typeof(Cos))]
-        [TestCase("button7", typeof(Sqrt))]
-        [TestCase("button8", typeof(Exp))]
-        [TestCase("button12", typeof(Log))]
-        [TestCase("button14", typeof(Ugoldannogocos))]
+        [TestCase("button1", typeof(Add))]
+        [TestCase("button2", typeof(Substraction))]
+        [TestCase("button3", typeof(ClassMultiply))]
+        [TestCase("button4", typeof(ClassDivision))]
+        [TestCase("button13", typeof(Atan))]
+        [TestCase("button16", typeof(Ostatokotdelenia))]
+
         public void FactoryTest(string name, Type type)
         {
-            ITwoArgumentsCalculator calc = TwoArguments.CreateCalculator(name);
+            ITwoArgumentsCalculator calc = TwoArgumentsFactory.CreateCalculator(name);
             Assert.IsInstanceOf(type, calc);
         }
     }
