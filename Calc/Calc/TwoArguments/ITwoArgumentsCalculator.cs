@@ -1,13 +1,10 @@
 ﻿namespace Calc.TwoArguments
 {
+    /// <summary>
+    /// Interfase for functions with two arguments
+    /// </summary>
     public interface ITwoArgumentsCalculator
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="first"></param>
-        /// <param name="second"></param>
-        /// <returns></returns>
         double Calculate(double first, double second);
     }
 }

@@ -2,6 +2,9 @@
 
 namespace Calc.OneArguments
 {
+    /// <summary>
+    /// Factory for functions with one arguments
+    /// </summary>
     public static class OneCalculation
     {
         public static IOneCalculation CreateCalculator(string calculationName)
